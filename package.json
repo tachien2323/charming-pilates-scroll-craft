@@ -1,0 +1,12 @@
+{
+  "name": "charming-pilates-scroll-craft",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Charming Pilates (차밍 필라테스) Scrollytelling Landing Page — Scroll Craft Architecture with Google Worksheet Sync & AI Assistant",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hệ thống Thiết kế (Design System) &amp; Scroll Craft — Charming Pilates</title>
+  <link rel="icon" href="/brand/logo-charming-circle-rose.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles/scroll-craft.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="brand-identity">
+        <div class="brand-logo-wrap">
+          <img src="/brand/logo-charming-transparent.png" alt="Charming Pilates Logo" width="42" height="42" />
+        </div>
+        <div class="brand-name-group">
+          <span class="brand-name-main">Charming Pilates</span>
+          <span class="brand-name-sub">차밍 필라테스 · Design System</span>
+        </div>
+      </a>
+      <div class="header-actions">
+        <a href="/" class="btn btn-primary btn-sm">← Quay về Trang chủ</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" style="padding-block: 3.5rem 5rem;">
+    <span class="badge badge-solid">SCROLL CRAFT &amp; DESIGN SYSTEM</span>
+    <h1 class="section-title" style="margin-top: 0.75rem;">
+      Hệ thống Thiết kế (Design System) — Charming Pilates
+    </h1>
+    <p class="section-subtitle" style="margin-top: 0.5rem;">
+      8 Token màu chuẩn WCAG AA/AAA · 3 Font tiếng Việt · Kiến trúc Scrollytelling Chaptered Editorial + Sticky Split Stage.
+    </p>
+
+    <!-- 01. Logos -->
+    <section style="margin-top: 3rem;">
+      <span class="eyebrow">01 · Nhận diện Logo (/brand/)</span>
+      <h2 class="font-display" style="font-size: 2rem; margin-top: 0.35rem;">Hệ thống Logo &amp; Quy tắc sử dụng</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
+        <div style="background: var(--surface); border: 1px solid rgba(201,158,145,0.45); border-radius: 20px; padding: 1.5rem; text-align: center;">
+          <img src="/brand/logo-charming-transparent.png" alt="logo-charming-transparent.png" style="width: 110px; height: 110px; object-fit: contain; margin: 0 auto 1rem;" />
+          <p style="font-weight: 600;">logo-charming-transparent.png</p>
+          <p style="font-size: 0.82rem; color: var(--text-muted);">Dùng trên Header, Footer nền kem ấm (#FBF6F3)</p>
+        </div>
+        <div style="background: var(--surface-alt); border: 1px solid rgba(201,158,145,0.45); border-radius: 20px; padding: 1.5rem; text-align: center;">
+          <img src="/brand/logo-charming-circle-rose.png" alt="logo-charming-circle-rose.png" style="width: 110px; height: 110px; object-fit: contain; margin: 0 auto 1rem; border-radius: 50%;" />
+          <p style="font-weight: 600;">logo-charming-circle-rose.png</p>
+          <p style="font-size: 0.82rem; color: var(--text-muted);">Dùng cho Favicon, Apple Touch Icon, Avatar Chatbot AI</p>
+        </div>
+        <div style="background: #C99E91; border-radius: 20px; padding: 1.5rem; text-align: center; color: #3D2E2A;">
+          <img src="/brand/logo-charming-square-white.png" alt="logo-charming-square-white.png" style="width: 110px; height: 110px; object-fit: contain; margin: 0 auto 1rem; border-radius: 16px;" />
+          <p style="font-weight: 600;">logo-charming-square-white.png</p>
+          <p style="font-size: 0.82rem;">Dùng cho ảnh chia sẻ Open Graph &amp; khối nhấn #C99E91</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02. 8 Color Tokens -->
+    <section style="margin-top: 3.5rem;">
+      <span class="eyebrow">02 · Bảng màu thương hiệu</span>
+      <h2 class="font-display" style="font-size: 2rem; margin-top: 0.35rem;">8 Token Màu &amp; Kiểm chuẩn tương phản WCAG AA/AAA</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.25rem; margin-top: 1.5rem;">
+        <div style="background: #FFFFFF; border: 1px solid rgba(201,158,145,0.4); border-radius: 18px; padding: 1.25rem;">
+          <div style="height: 64px; border-radius: 12px; background: #C99E91; margin-bottom: 0.75rem;"></div>
+          <code>--brand-rose: #C99E91</code>
+          <p style="font-size: 0.82rem; color: var(--text-muted); margin-top: 0.3rem;">Màu hồng đất chủ đạo. Chỉ dùng làm nền nhấn nhẹ, viền (2.4:1 với #FFF — không dùng chữ trắng nhỏ).</p>
+        </div>
+        <div style="background: #FFFFFF; border: 1px solid rgba(201,158,145,0.4); border-radius: 18px; padding: 1.25rem;">
+          <div style="height: 64px; border-radius: 12px; background: #8E5F53; margin-bottom: 0.75rem;"></div>
+          <code>--brand-rose-deep: #8E5F53</code>
+          <p style="font-size: 0.82rem; color: var(--text-muted); margin-top: 0.3rem;">Màu nút CTA chính có chữ trắng. Tương phản 5.4:1 (Đạt chuẩn WCAG AA). Hover: #7C5246.</p>
+        </div>
+        <div style="background: #FFFFFF; border: 1px solid rgba(201,158,145,0.4); border-radius: 18px; padding: 1.25rem;">
+          <div style="height: 64px; border-radius: 12px; background: #E8D3CB; margin-bottom: 0.75rem;"></div>
+          <code>--brand-rose-soft: #E8D3CB</code>
+          <p style="font-size: 0.82rem; color: var(--text-muted); margin-top: 0.3rem;">Hồng kem nhạt. Nền thẻ nổi bật, badge (9.4:1 với #3D2E2A — WCAG AAA).</p>
+        </div>
+        <div style="background: #FFFFFF; border: 1px solid rgba(201,158,145,0.4); border-radius: 18px; padding: 1.25rem;">
+          <div style="height: 64px; border-radius: 12px; background: #FBF6F3; border: 1px solid #E8D3CB; margin-bottom: 0.75rem;"></div>
+          <code>--surface: #FBF6F3</code>
+          <p style="font-size: 0.82rem; color: var(--text-muted); margin-top: 0.3rem;">Nền chính toàn trang Warm Ivory (12.0:1 với #3D2E2A — WCAG AAA).</p>
+        </div>
+        <div style="background: #FFFFFF; border: 1px solid rgba(201,158,145,0.4); border-radius: 18px; padding: 1.25rem;">
+          <div style="height: 64px; border-radius: 12px; background: #F3E6E0; margin-bottom: 0.75rem;"></div>
+          <code>--surface-alt: #F3E6E0</code>
+          <p style="font-size: 0.82rem; color: var(--text-muted); margin-top: 0.3rem;">Nền section xen kẽ (10.6:1 với #3D2E2A — WCAG AAA).</p>
+        </div>
+        <div style="background: #FFFFFF; border: 1px solid rgba(201,158,145,0.4); border-radius: 18px; padding: 1.25rem;">
+          <div style="height: 64px; border-radius: 12px; background: #3D2E2A; margin-bottom: 0.75rem;"></div>
+          <code>--text: #3D2E2A</code>
+          <p style="font-size: 0.82rem; color: var(--text-muted); margin-top: 0.3rem;">Chữ chính Deep Espresso Brown (12.0:1 trên nền #FBF6F3 — WCAG AAA).</p>
+        </div>
+        <div style="background: #FFFFFF; border: 1px solid rgba(201,158,145,0.4); border-radius: 18px; padding: 1.25rem;">
+          <div style="height: 64px; border-radius: 12px; background: #7A6560; margin-bottom: 0.75rem;"></div>
+          <code>--text-muted: #7A6560</code>
+          <p style="font-size: 0.82rem; color: var(--text-muted); margin-top: 0.3rem;">Chữ phụ Muted Warm Taupe (5.1:1 trên nền #FBF6F3 — WCAG AA).</p>
+        </div>
+        <div style="background: #FFFFFF; border: 1px solid rgba(201,158,145,0.4); border-radius: 18px; padding: 1.25rem;">
+          <div style="height: 64px; border-radius: 12px; background: #9AA3A8; margin-bottom: 0.75rem;"></div>
+          <code>--neutral-equipment: #9AA3A8</code>
+          <p style="font-size: 0.82rem; color: var(--text-muted); margin-top: 0.3rem;">Xám xanh đệm máy Reformer — dùng cho đường kẻ mảnh kỹ thuật.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03. Typography -->
+    <section style="margin-top: 3.5rem;">
+      <span class="eyebrow">03 · Kiểu chữ tiếng Việt</span>
+      <h2 class="font-display" style="font-size: 2rem; margin-top: 0.35rem;">3 Font chữ chuyên biệt</h2>
+      <div style="display: grid; gap: 1.25rem; margin-top: 1.25rem;">
+        <div style="background: #FFFFFF; border: 1px solid rgba(201,158,145,0.4); border-radius: 18px; padding: 1.5rem;">
+          <span class="badge badge-soft">Display / Heading — Cormorant Garamond</span>
+          <p class="font-display" style="font-size: 2.4rem; font-weight: 600; margin-top: 0.5rem;">Pilates có kết quả đo được · <em>“True beauty comes from within”</em></p>
+        </div>
+        <div style="background: #FFFFFF; border: 1px solid rgba(201,158,145,0.4); border-radius: 18px; padding: 1.5rem;">
+          <span class="badge badge-soft">Label / Button / Eyebrow — Montserrat (0.15em)</span>
+          <p class="font-label" style="font-size: 0.95rem; font-weight: 600; color: var(--brand-rose-deep); margin-top: 0.65rem;">CHARMING PILATES STUDIO · ĐÁNH GIÁ TƯ THẾ ĐẦU VÀO</p>
+        </div>
+        <div style="background: #FFFFFF; border: 1px solid rgba(201,158,145,0.4); border-radius: 18px; padding: 1.5rem;">
+          <span class="badge badge-soft">Body / UI Copy — Be Vietnam Pro</span>
+          <p style="font-size: 1rem; margin-top: 0.65rem;">Mỗi buổi tập tại <strong>Charming Pilates</strong> giới hạn tối đa 4 học viên để huấn luyện viên chỉnh từng nhịp thở và góc độ khớp. Cam kết không chèo kéo, làm việc từ tâm · Giá thực thu minh bạch từ 199.000đ/buổi.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
