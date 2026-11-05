@@ -54,7 +54,7 @@ function guardedKnowledgeEngine(userMessage) {
     return {
       reply:
         'Pilates nguyên bản vốn được phát triển để phục hồi vận động. Trong 20 phút đầu buổi thử, HLV sẽ đánh giá tư thế đầu vào, loại bỏ các động tác gây chèn ép đĩa đệm và tập trung kích hoạt nhóm cơ lõi sâu (deep core) trên máy Reformer để nâng đỡ cột sống.\n' +
-        'Sau 3–5 buổi đầu bạn sẽ cảm nhận vùng cổ vai gáy và thắt lưng nhẹ nhõm hơn rõ rệt. Bạn muốn đặt buổi đánh giá tư thế tại D\'Capitale hay Royal City?',
+        'Sau 3–5 buổi đầu bạn sẽ cảm nhận vùng cổ vai gáy và thắt lưng nhẹ nhõm hơn rõ rệt. Bạn muốn đăng ký tập thử tại D\'Capitale hay Royal City?',
       suggestLeadCapture: true,
       provider: 'guarded-knowledge-engine'
     };

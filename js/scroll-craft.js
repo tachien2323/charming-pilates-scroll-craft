@@ -21,36 +21,36 @@
       tiers: [
         {
           tierId: '1-4-single',
-          sessionsLabel: '01 buổi',
+          sessionsLabel: '01\u00A0buổi',
           tierName: 'Mua lẻ từng buổi',
-          priceDisplay: '380.000 đ',
+          priceDisplay: '380.000\u00A0đ',
           validityNote: 'Trải nghiệm linh hoạt theo buổi',
           highlight: false,
           badge: ''
         },
         {
           tierId: '1-4-20-30',
-          sessionsLabel: '20 – 30 buổi',
-          tierName: 'Gói 20 – 30 buổi',
-          priceDisplay: '279.000 đ',
-          validityNote: 'Phù hợp lộ trình khởi đầu 8 – 12 tuần',
+          sessionsLabel: '20\u00A0–\u00A030\u00A0buổi',
+          tierName: 'Gói 20\u00A0–\u00A030\u00A0buổi',
+          priceDisplay: '279.000\u00A0đ',
+          validityNote: 'Phù hợp lộ trình khởi đầu 8\u00A0–\u00A012\u00A0tuần',
           highlight: false,
           badge: ''
         },
         {
           tierId: '1-4-50-60',
-          sessionsLabel: '50 – 60 buổi',
-          tierName: 'Gói 50 – 60 buổi',
-          priceDisplay: '249.000 đ',
+          sessionsLabel: '50\u00A0–\u00A060\u00A0buổi',
+          tierName: 'Gói 50\u00A0–\u00A060\u00A0buổi',
+          priceDisplay: '249.000\u00A0đ',
           validityNote: 'Duy trì thói quen & tái cấu trúc tư thế bền vững',
           highlight: true,
           badge: 'Được chọn nhiều nhất'
         },
         {
           tierId: '1-4-100',
-          sessionsLabel: '100 buổi',
-          tierName: 'Gói 100 buổi',
-          priceDisplay: '199.000 đ',
+          sessionsLabel: '100\u00A0buổi',
+          tierName: 'Gói 100\u00A0buổi',
+          priceDisplay: '199.000\u00A0đ',
           validityNote: 'Mức phí tối ưu nhất cho hội viên gắn bó dài hạn',
           highlight: false,
           badge: 'Tối ưu chi phí'
@@ -64,36 +64,36 @@
       tiers: [
         {
           tierId: '1-2-single',
-          sessionsLabel: '01 buổi',
+          sessionsLabel: '01\u00A0buổi',
           tierName: 'Mua lẻ từng buổi',
-          priceDisplay: '480.000 đ',
+          priceDisplay: '480.000\u00A0đ',
           validityNote: 'Linh hoạt theo lịch cá nhân',
           highlight: false,
           badge: ''
         },
         {
           tierId: '1-2-20-30',
-          sessionsLabel: '20 – 30 buổi',
-          tierName: 'Gói 20 – 30 buổi',
-          priceDisplay: '399.000 đ',
-          validityNote: 'Lộ trình 8 – 12 tuần có tái đánh giá',
+          sessionsLabel: '20\u00A0–\u00A030\u00A0buổi',
+          tierName: 'Gói 20\u00A0–\u00A030\u00A0buổi',
+          priceDisplay: '399.000\u00A0đ',
+          validityNote: 'Lộ trình 8\u00A0–\u00A012\u00A0tuần có tái đánh giá',
           highlight: false,
           badge: ''
         },
         {
           tierId: '1-2-50-60',
-          sessionsLabel: '50 – 60 buổi',
-          tierName: 'Gói 50 – 60 buổi',
-          priceDisplay: '369.000 đ',
+          sessionsLabel: '50\u00A0–\u00A060\u00A0buổi',
+          tierName: 'Gói 50\u00A0–\u00A060\u00A0buổi',
+          priceDisplay: '369.000\u00A0đ',
           validityNote: 'Cam kết thay đổi rõ rệt vóc dáng & tư thế',
           highlight: true,
           badge: 'Khuyên dùng'
         },
         {
           tierId: '1-2-100',
-          sessionsLabel: '100 buổi',
-          tierName: 'Gói 100 buổi',
-          priceDisplay: '329.000 đ',
+          sessionsLabel: '100\u00A0buổi',
+          tierName: 'Gói 100\u00A0buổi',
+          priceDisplay: '329.000\u00A0đ',
           validityNote: 'Tiết kiệm tối đa cho cặp đôi tập lâu dài',
           highlight: false,
           badge: 'Tiết kiệm tối đa'
@@ -107,36 +107,36 @@
       tiers: [
         {
           tierId: '1-1-single',
-          sessionsLabel: '01 buổi',
+          sessionsLabel: '01\u00A0buổi',
           tierName: 'Mua lẻ từng buổi',
-          priceDisplay: '840.000 đ',
+          priceDisplay: '840.000\u00A0đ',
           validityNote: 'Đánh giá & trị liệu vận động chuyên sâu',
           highlight: false,
           badge: ''
         },
         {
           tierId: '1-1-20-30',
-          sessionsLabel: '20 – 30 buổi',
-          tierName: 'Gói 20 – 30 buổi',
-          priceDisplay: '669.000 đ',
-          validityNote: 'Lộ trình phục hồi & chỉnh trục cơ thể 8 tuần',
+          sessionsLabel: '20\u00A0–\u00A030\u00A0buổi',
+          tierName: 'Gói 20\u00A0–\u00A030\u00A0buổi',
+          priceDisplay: '669.000\u00A0đ',
+          validityNote: 'Lộ trình phục hồi & chỉnh trục cơ thể 8\u00A0tuần',
           highlight: true,
           badge: 'Phổ biến 1:1'
         },
         {
           tierId: '1-1-50-60',
-          sessionsLabel: '50 – 60 buổi',
-          tierName: 'Gói 50 – 60 buổi',
-          priceDisplay: '599.000 đ',
+          sessionsLabel: '50\u00A0–\u00A060\u00A0buổi',
+          tierName: 'Gói 50\u00A0–\u00A060\u00A0buổi',
+          priceDisplay: '599.000\u00A0đ',
           validityNote: 'Chăm sóc chuyên biệt & định hình chuyên sâu',
           highlight: false,
           badge: ''
         },
         {
           tierId: '1-1-100',
-          sessionsLabel: '100 buổi',
-          tierName: 'Gói 100 buổi',
-          priceDisplay: '529.000 đ',
+          sessionsLabel: '100\u00A0buổi',
+          tierName: 'Gói 100\u00A0buổi',
+          priceDisplay: '529.000\u00A0đ',
           validityNote: 'Đặc quyền tập kèm riêng 1:1 chi phí tốt nhất',
           highlight: false,
           badge: 'Ưu đãi 1:1'
@@ -147,27 +147,27 @@
 
   const SPINE_STATES = [
     {
-      step: 'Bước 01 / 04 · 20 phút đầu buổi thử',
+      step: 'Bước 01/04 · 20\u00A0phút đầu',
       title: 'Đo trục cột sống & Cân bằng vai – hông',
       desc: 'Kiểm tra độ lệch cổ – ngực – thắt lưng, độ nghiêng khung chậu và biên độ khớp thực tế.',
       progress: 0.25,
       alignmentVal: 'Đo lường',
       coreVal: 'Khảo sát',
-      reliefVal: '20 phút',
+      reliefVal: '20\u00A0phút',
       pathD: 'M 60 18 C 72 52, 46 88, 66 124 C 76 146, 52 168, 60 192'
     },
     {
-      step: 'Bước 02 / 04 · Cá nhân hóa 100%',
+      step: 'Bước 02/04 · Cá nhân hóa 100%',
       title: 'Thiết kế phác đồ & Kháng lực lò xo Reformer',
       desc: 'Chọn mức lò xo nâng đỡ cột sống và bài tập kích hoạt cơ lõi sâu theo đúng thể trạng.',
       progress: 0.5,
       alignmentVal: '+45%',
       coreVal: 'Kích hoạt',
-      reliefVal: '8 tuần',
+      reliefVal: '8\u00A0tuần',
       pathD: 'M 60 18 C 67 52, 53 88, 63 124 C 68 146, 56 168, 60 192'
     },
     {
-      step: 'Bước 03 / 04 · Tối đa 4 người/buổi',
+      step: 'Bước 03/04 · Kèm sát tối đa 1:4',
       title: 'HLV chỉnh tay từng nhịp thở & góc đặt khớp',
       desc: 'Kèm sát 1:1, 1:2 hoặc 1:4 trên hệ máy Reformer & Cadillac riêng biệt, an toàn tuyệt đối.',
       progress: 0.75,
@@ -177,9 +177,9 @@
       pathD: 'M 60 18 C 63 52, 57 88, 61 124 C 63 146, 58 168, 60 192'
     },
     {
-      step: 'Bước 04 / 04 · Sau 16 – 24 buổi tập',
+      step: 'Bước 04/04 · Sau 16–24\u00A0buổi tập',
       title: 'Tái đánh giá & Đối chiếu kết quả bằng con số',
-      desc: 'Đo lại trục đứng, độ linh hoạt khớp và vòng eo để nhìn thấy sự thay đổi thực chất sau 8 tuần.',
+      desc: 'Đo lại trục đứng, độ linh hoạt khớp và vòng eo để nhìn thấy sự thay đổi thực chất sau 8\u00A0tuần.',
       progress: 1.0,
       alignmentVal: 'Chuẩn trục',
       coreVal: 'Bền vững',
@@ -689,7 +689,7 @@
       } finally {
         if (wizardSubmitBtn) {
           wizardSubmitBtn.disabled = false;
-          wizardSubmitBtn.textContent = 'Hoàn tất đặt buổi tập thử';
+          wizardSubmitBtn.textContent = 'Hoàn tất đăng ký tập thử';
         }
       }
 
@@ -888,7 +888,7 @@
   const chatHistory = [
     {
       role: 'assistant',
-      content: "Chào bạn! Mình là trợ lý tư vấn của Charming Pilates (D'Capitale & Royal City). Bạn muốn tham khảo bảng học phí, hỏi về tình trạng đau lưng/sau sinh hay đặt buổi tập thử 60 phút?"
+      content: "Chào bạn! Mình là trợ lý tư vấn của Charming Pilates (D'Capitale & Royal City). Bạn muốn tham khảo bảng học phí, hỏi về tình trạng đau lưng/sau sinh hay đăng ký tập thử 60 phút?"
     }
   ];
 
@@ -918,7 +918,7 @@
       return {
         reply:
           'Hoàn toàn tập được và rất phù hợp ạ! Trong 20 phút đầu buổi thử, HLV sẽ đo trục cột sống (cổ – ngực – thắt lưng), loại bỏ các động tác gây chèn ép đĩa đệm và dùng lò xo máy Reformer để giải phóng áp lực đốt sống, kích hoạt cơ lõi sâu (deep core).\n' +
-          'Sau 3–5 buổi bạn sẽ thấy nhẹ vai và thắt lưng rõ rệt. Bạn muốn đặt buổi đánh giá tư thế tại D\'Capitale Trần Duy Hưng hay Royal City Nguyễn Trãi?',
+          'Sau 3–5 buổi bạn sẽ thấy nhẹ vai và thắt lưng rõ rệt. Bạn muốn đăng ký tập thử tại D\'Capitale Trần Duy Hưng hay Royal City Nguyễn Trãi?',
         suggestLeadCapture: true
       };
     }
@@ -968,7 +968,7 @@
     chatHistory.push({ role: 'user', content: text });
     if (chatInput) chatInput.value = '';
 
-    if (text === 'Đặt buổi thử' && chatLeadBox) {
+    if ((text === 'Đăng ký tập thử' || text === 'Đặt buổi thử') && chatLeadBox) {
       chatLeadBox.hidden = false;
     }
 
@@ -994,7 +994,7 @@
       appendChatBubble('assistant', replyText);
       chatHistory.push({ role: 'assistant', content: replyText });
 
-      if ((data && data.suggestLeadCapture) || text === 'Đặt buổi thử') {
+      if ((data && data.suggestLeadCapture) || text === 'Đăng ký tập thử' || text === 'Đặt buổi thử') {
         if (chatLeadBox) chatLeadBox.hidden = false;
       }
     } catch (_) {

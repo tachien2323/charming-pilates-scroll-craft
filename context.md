@@ -90,11 +90,11 @@
      - Hỗ trợ cấu hình nhanh URL Google Apps Script Webhook ngay trên giao diện (nút cài đặt kết nối Sheet) kèm mã nguồn Apps Script mẫu `doPost(e)` để kết nối bất kỳ file Google Sheet nào trong 1 phút.
 2. **Trợ Lý AI Hỏi Đáp (`ChatWidget` & `/api/chat`):**
    - Nút nổi *"Hỏi trợ lý AI"* mở hộp thoại tư vấn thông minh có Avatar Charming Pilates và nút chuyển nhanh *"Gặp tư vấn viên (Zalo)"*.
-   - Tích hợp 4 gợi ý hỏi nhanh: `Bảng giá`, `Tôi mới sau sinh`, `Đau lưng có tập được không`, `Đặt buổi thử`.
+   - Tích hợp 4 gợi ý hỏi nhanh: `Bảng giá`, `Tôi mới sau sinh`, `Đau lưng có tập được không`, `Đăng ký tập thử`.
    - Backend `/api/chat` kết hợp **OpenRouter / Gemini AI** (khi cấu hình API key) và **Charming Pilates Guarded Knowledge Engine** (trả lời chính xác tuyệt đối về bảng giá 1:4 / 1:2 / 1:1, địa chỉ 2 cơ sở, thai kỳ/hậu sản, thoát vị đĩa đệm, chính sách hủy lịch/bảo lưu) kèm biểu mẫu để lại SĐT giữ lịch ngay trong khung chat.
 3. **Hệ Thống Liên Hệ Đa Kênh (Zalo, Messenger, Hotline):**
    - **Desktop Floating Action Bar:** Cụm nút nổi góc dưới bên phải gồm `Zalo tư vấn`, `Messenger`, `Hotline 096 389 4885` và `Hỏi trợ lý AI`.
-   - **Mobile Sticky Bottom Bar:** Thanh liên hệ dính đáy màn hình di động gồm `Gọi điện`, `Chat Zalo`, `Messenger`, `Đặt thử` đảm bảo thao tác 1 chạm bằng ngón cái.
+   - **Mobile Sticky Bottom Bar:** Thanh liên hệ dính đáy màn hình di động gồm `Gọi điện`, `Chat Zalo`, `Messenger`, `Đăng ký tập thử` đảm bảo thao tác 1 chạm bằng ngón cái.
 4. **Triển Khai GitHub & Go-Live Chính Thức Trên Vercel:**
    - Cấu trúc dự án chuẩn Vercel (`index.html`, `styleguide.html`, `chinh-sach-bao-mat.html`, `dieu-khoan.html`, `styles/`, `js/`, `brand/`, `images/`, `api/leads.js`, `api/chat.js`, `vercel.json`).
    - Đẩy mã nguồn lên GitHub repository và triển khai Production (`vercel --prod`) trên Vercel.
